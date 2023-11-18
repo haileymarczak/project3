@@ -1,0 +1,150 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 300;
+    font-style: bold;
+    font-size: .5in;
+    float: right;
+}
+
+h3 {
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 300;
+    font-style: thin;
+    font-size: .5in;
+    float: right;
+}
+
+.a {
+
+    background-color: #E53C5B;
+    width: 10px;
+    padding: 10px;
+    padding-top: 20px;
+    margin: .5in;
+
+}
+
+.b {
+
+    background-color: #455E9C;
+    width: 10px;
+    padding: 10px;
+    padding-top: 20px;
+    margin: .5in;
+
+}
+
+.c {
+
+    background-color: #008071;
+    width: 10px;
+    padding: 10px;
+    padding-top: 20px;
+    margin: .5in;
+
+}
+
+.d {
+
+    background-color: #E97D39;
+    width: 10px;
+    padding: 10px;
+    padding-top: 20px;
+    margin: .5in;
+}
+
+.e {
+
+    background-color: #4B85B4;
+    width: 10px;
+    padding: 10px;
+    padding-top: 20px;
+    margin: .5in;
+}
+
+.nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    }
+    nav * {
+    display: inline;
+    }
+    nav li {
+    margin: 20px;
+    }
+    nav li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 300;
+    font-style: bold;
+    }
+
+    .container {
+        padding: 80px 140px 140px;
+        max-width: 640px;
+        display: flex;
+        font-family: "itc-avant-garde-gothic-pro", sans-serif;
+        font-weight: 300;
+        font-style: bold;
+
+    }
+        
+   .container img {
+    margin: 40px 60px 0 0;
+    width: 200px;
+    object-fit: contain;
+    align-self: flex-start;
+
+   }
+    
+
+.about{
+  color: aliceblue;
+  background-color: antiquewhite;
+}
+
+.style{
+    color: rgb(0, 0, 0);
+    background-color: antiquewhite;
+
+}
+.gallery{
+    color: rgb(0, 0, 0);
+    background-color: antiquewhite;
+}
+
+.career{
+    color: black;
+    background-color: antiquewhite;
+}
+
+
+div.gallery {
+    margin: .5in;
+    float: left;
+    width: 5in;
+    padding-top: .2in;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: left;
+  }
